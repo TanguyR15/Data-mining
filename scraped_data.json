@@ -1,61 +1,74 @@
 {
     "products": [
         {
-            "name": "Standard Widget",
-            "price": "$19.99"
+            "name": "Scraped Item 1",
+            "price": "$20"
         },
         {
-            "name": "Premium Tool",
-            "price": "$49.99"
+            "name": "Scraped Item 2",
+            "price": "$40"
         }
     ],
     "testimonials": [
         {
-            "text": "We've been using this utility for years - awesome service!"
-        },
-        {
-            "text": "This Python app simplified my workflow significantly. Highly recommended."
-        },
-        {
-            "text": "Had a few issues at first, but their support team is top-notch!"
-        },
-        {
-            "text": "A fantastic tool - it has everything you need and more."
-        },
-        {
-            "text": "The interface could be a little more user-friendly."
+            "text": "See reviews section."
         }
     ],
     "reviews": [
         {
-            "title": "Excellent!",
-            "text": "This product changed my life, I highly recommend it to everyone.",
-            "date": "2023-01-15"
+            "title": "Customer Feedback",
+            "text": "Take a look at this collection of recent user testimonials 👇",
+            "date": "2023-12-12"
         },
         {
-            "title": "Disappointed",
-            "text": "The quality is very poor and it arrived broken. Very sad.",
-            "date": "2023-01-20"
+            "title": "Customer Feedback",
+            "text": "We've been using this utility for years - awesome service!",
+            "date": "2023-02-06"
         },
         {
-            "title": "Good value",
-            "text": "It works as expected for the price. Not the best but okay.",
-            "date": "2023-05-10"
+            "title": "Customer Feedback",
+            "text": "This Python app simplified my workflow significantly. Highly recommended.",
+            "date": "2023-11-25"
         },
         {
-            "title": "Amazing",
-            "text": "Fast delivery and great customer support. Will buy again!",
-            "date": "2023-05-25"
+            "title": "Customer Feedback",
+            "text": "Had a few issues at first, but their support team is top-notch!",
+            "date": "2023-12-21"
         },
         {
-            "title": "Worst purchase",
-            "text": "Waste of money. Does not work at all and the instructions are unclear.",
-            "date": "2023-08-05"
+            "title": "Customer Feedback",
+            "text": "A fantastic tool - it has everything you need and more.",
+            "date": "2023-12-26"
         },
         {
-            "title": "Perfect",
-            "text": "Exactly what I was looking for. 5 stars!",
-            "date": "2023-11-12"
+            "title": "Customer Feedback",
+            "text": "The interface could be a little more user-friendly.",
+            "date": "2023-04-20"
+        },
+        {
+            "title": "Customer Feedback",
+            "text": "Been a fan of this app since day one. It just keeps getting better!",
+            "date": "2023-03-24"
+        },
+        {
+            "title": "Customer Feedback",
+            "text": "The recent updates really improved the overall experience.",
+            "date": "2023-06-07"
+        },
+        {
+            "title": "Customer Feedback",
+            "text": "A decent web app. There's room for improvement though.",
+            "date": "2023-05-18"
+        },
+        {
+            "title": "Customer Feedback",
+            "text": "The app is reliable and efficient. I can't imagine my day without it now.",
+            "date": "2023-10-19"
+        },
+        {
+            "title": "Customer Feedback",
+            "text": "Encountered some bugs. Hope they fix it soon.",
+            "date": "2023-04-08"
         }
     ]
 }
