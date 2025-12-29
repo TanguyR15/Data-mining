@@ -96,8 +96,20 @@ else:
             if df_2023.empty:
                 st.info("Aucune donnée pour 2023.")
             else:
-                months = sorted(df_2023['date'].dt.strftime('%B').unique())
-                selected_month = st.select_slider("Select Month", options=months)
+                # 1. On définit l'ordre chronologique officiel
+                month_order = [
+                    'January', 'February', 'March', 'April', 'May', 'June', 
+                    'July', 'August', 'September', 'October', 'November', 'December'
+                ]
+                
+                # 2. On récupère les mois présents dans tes données
+                available_months = df_2023['date'].dt.strftime('%B').unique()
+                
+                # 3. On trie tes mois en suivant l'ordre officiel
+                sorted_months = sorted(available_months, key=lambda m: month_order.index(m))
+
+                # 4. On affiche le slider avec les mois triés
+                selected_month = st.select_slider("Select Month", options=sorted_months)
                 
                 monthly_reviews = df_2023[df_2023['date'].dt.strftime('%B') == selected_month].copy()
                 
